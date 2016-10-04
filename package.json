@@ -1,0 +1,25 @@
+{
+  "name": "wp_dl_monitor_geo",
+  "version": "1.0.0",
+  "description": "look up geo info for ips stored in wp_download_monitor_log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thegreatmichael/wp_dl_monitor_geo.git"
+  },
+  "author": "Michael Stewart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thegreatmichael/wp_dl_monitor_geo/issues"
+  },
+  "homepage": "https://github.com/thegreatmichael/wp_dl_monitor_geo#readme",
+  "dependencies": {
+    "csv": "^1.1.0",
+    "csv-parse": "^1.1.7",
+    "csv-stringify": "^1.0.4",
+    "geoip-lite": "^1.1.8"
+  }
+}
